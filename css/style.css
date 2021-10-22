@@ -460,8 +460,7 @@ margin-top:60px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: space-between;
+   
 }
 .goods-top{
     text-align: center;
@@ -483,7 +482,9 @@ margin-top:60px;
     margin-right: auto;
 }
 .goods-block{
-    margin-bottom:60px;
+    display: flex;
+    flex-direction:row;
+    margin:0 auto;
 }
 /* подвал  */
 .articles-footer{
