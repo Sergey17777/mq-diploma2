@@ -497,6 +497,13 @@ margin-top:60px;
     flex-direction:row;
     margin:0 auto;
 }
+.rub{
+     border-bottom: 1px solid;
+  line-height: 5px;
+  display: inline-block;
+  width: 0.4em;
+  font-weight: bold;
+}
 /* подвал  */
 .articles-footer{
     text-align: center;
