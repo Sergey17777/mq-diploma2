@@ -504,6 +504,17 @@ margin-top:60px;
   width: 0.4em;
   font-weight: bold;
 }
+.shop-button{
+    height: 50px;
+    border: none;
+    width: 136px;
+    background-color:#b59f5b;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 13px;
+}
+}
 /* подвал  */
 .articles-footer{
     text-align: center;
