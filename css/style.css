@@ -492,6 +492,7 @@ margin-top:60px;
     margin-right: auto;
 }
 .goods-block{
+    padding-top: 30px;
     display: flex;
     flex-direction:row;
     margin:0 auto;
