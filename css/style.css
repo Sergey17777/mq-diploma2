@@ -21,6 +21,8 @@ body{
 a{
     text-decoration: none;
 }
+/*поп ап*/
+
 /*шапка*/
 .header{
     display: flex;
