@@ -60,7 +60,7 @@ a{
     flex-direction: column;
     max-width:390px;
     width:95%;
-    height:590px;
+    min-height: 590px;
     margin: auto;
     position: relative;
     background-color: #ffffff;
@@ -68,6 +68,10 @@ a{
 }
 .p-feedback-form{
     margin: 0 auto;
+}
+.p-feedback-radio-group{
+display:flex;
+
 }
 /* крестик*/
 .popup-close {
