@@ -37,8 +37,8 @@ a{
     z-index:8;
 }
 .p-feedback-container {
-    max-width: 390px;
-    width: 95%;
+    max-width:390px;
+    width:95%;
     height:590px;
     margin: auto;
     background-color: #ffffff;
