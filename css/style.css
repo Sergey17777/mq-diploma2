@@ -73,6 +73,18 @@ a{
 display:flex;
 
 }
+.p-feedback-button{
+      margin-top: 18px;
+    height: 48px;
+    border: none;
+    width: 100%;
+    background-color:#b59f5b;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 13px;
+}
+
 /* крестик*/
 .popup-close {
     width: 1.4em;
