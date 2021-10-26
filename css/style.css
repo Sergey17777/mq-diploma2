@@ -70,7 +70,17 @@ a{
 
 }
 .p-feedback-select{
-
+    display: block;
+    font-family: inherit;
+    width: 330px;
+    height: 50px;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../svg/form-arrows.svg");
+    background-size: 3%  ;
+    background-repeat: no-repeat;
+    background-position: right 5px  center;
 }
 .p-feedback-radio-label{
 display: block;
