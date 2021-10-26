@@ -192,6 +192,7 @@ display: block;
     width:100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 62px;
 }
 
 .trends{
@@ -300,6 +301,8 @@ display: block;
   width: 90%;
   border: 3px solid #b59f5b;
   padding: 36px 32px;
+  margin-top: 22%;
+  margin-bottom: 15px;
   align-items: flex-end;
 }
 /* контент*/
@@ -328,6 +331,7 @@ display: block;
 }
 .news-img{
     display: block;
+    object-fit: cover;
 }
 .news
 {
@@ -561,8 +565,7 @@ margin-top:60px;
 
     width: 1200px;
     margin-left: auto;
-    margin-right: auto;  
-   
+    margin-right: auto;     
 }
 .goods-top{
     text-align: center;
@@ -583,11 +586,27 @@ margin-top:60px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .goods-block{
     padding-top: 30px;
     display: flex;
     flex-direction:row;
     margin:0 auto;
+}
+.goods{
+    width: 345px;
+      text-align: center;
+  }
+  .goods:nth-child(n + 1):nth-child(-n + 3) {
+  margin-right: 60px;
+  }  
+.goods-img{
+    object-fit: cover;
+}
+.goods-info{
+    border: 3px solid #ceb285;
+    width: 345px;
+    height: 265px;
 }
 .rub{
      border-bottom: 1px solid;
@@ -669,12 +688,15 @@ margin-top:60px;
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute;
 }
+
 .copyright{
-    text-decoration: none;
+     text-decoration: none;
     color:#999999;
     font-weight: bold;
     font-size: 12px;
-    text-align: center
+    margin-left: 50%;
+    margin-right: 50%;
+
 }
 /* медиа запросы*/
 
