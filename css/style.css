@@ -319,7 +319,7 @@ display: block;
 .main-container{
     display: flex;
     justify-content: space-between;
-    width:778px;
+    max-width:778px;
 }
 .news-block{
     display: flex;
