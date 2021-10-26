@@ -67,7 +67,10 @@ a{
    padding: 60px 20px 55px 25px; 
 }
 .p-feedback-form{
-    margin: 0 auto;
+
+}
+.p-feedback-select{
+
 }
 .p-feedback-radio-label{
 display: block;
@@ -95,26 +98,10 @@ display: block;
     right: 0;
     background-color:transparent;
     border: none;
-}
-.popup-close:before, .popup-close:after {
-    width: 1.4em;
-    height: 0.2em;
-    content: "";
-    background-color: #ffffff;
-    border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.popup-close:before {
-    transform: translate(-50%, -50%) rotate(
-45deg);
-}
-.popup-close:after {
-    transform: translate(-50%, -50%) rotate(
--45deg);
-}
+     background-image: url("../svg/form-x.svg");
+     background-repeat: no-repeat;
 
+}
 /*шапка*/
 .header{
     display: flex;
