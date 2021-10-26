@@ -69,10 +69,11 @@ a{
 .p-feedback-form{
     margin: 0 auto;
 }
-.p-feedback-radio-group{
-display:flex;
+.p-feedback-radio-label{
+display: block;
 
 }
+
 .p-feedback-button{
       margin-top: 18px;
     height: 48px;
