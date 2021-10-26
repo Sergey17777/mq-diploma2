@@ -240,9 +240,7 @@ display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.trend-text{
-    position: relative;
-      z-index:1;}
+
 .trend-link{
     color:#ffff;
 }
@@ -270,6 +268,14 @@ display: block;
     background-position: center center;
     background-size: cover;
   }
+  .trend-text{
+    position: relative;
+      z-index:1;
+   width: 90%;
+  border: 3px solid #b59f5b;
+  padding: 36px 32px;
+  align-items: flex-end;
+}
 .trend-menu-list{
   list-style: none;
     padding:0;
@@ -297,14 +303,6 @@ display: block;
     font-weight: bold;
 }
 
-.trend-text{
-  width: 90%;
-  border: 3px solid #b59f5b;
-  padding: 36px 32px;
-  margin-top: 22%;
-  margin-bottom: 15px;
-  align-items: flex-end;
-}
 /* контент*/
 
 .container {
@@ -607,6 +605,17 @@ margin-top:60px;
     border: 3px solid #ceb285;
     width: 345px;
     height: 265px;
+}
+.goods-link{
+    font-size:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.list-goods-link{
+    color:#b59f5b;
 }
 .rub{
      border-bottom: 1px solid;
