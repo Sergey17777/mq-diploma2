@@ -253,9 +253,8 @@ display: block;
     background-position: center center;
     background-size: cover;
     align-items: flex-end;
-    justify-content:space-between;
+    justify-content:center;
     padding-bottom: 15px;
-    flex-direction:row;
 }
   .trenda{
     background-image: url("../images/trend1.jpg");
