@@ -199,7 +199,7 @@ display: block;
 width: 100%;
   margin-top: 30px;
   display: flex;
-  flex-wrap: wrap;
+ 
 }
 
 .trend::after {
@@ -270,10 +270,12 @@ width: 100%;
     background-size: cover;
   }
   .trend-text{
+    display: flex;
+    
    width: 90%;
   border: 3px solid #b59f5b;
   padding: 36px 32px;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 .trend-menu-list{
   list-style: none;
