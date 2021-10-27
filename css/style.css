@@ -199,11 +199,17 @@ display: block;
 }
 
 .trends{
-width: 100%;
+  width: 100%;
   margin-top: 30px;
   display: flex;
 }
-
+.trend{
+  height:320px;
+  width: 24.8%;
+  background-color: #00f000;
+  position: relative;
+  z-index:0;
+}
 .trend::after {
   content: "";
   position: absolute;
@@ -215,13 +221,7 @@ width: 100%;
   opacity: 0.6;
   z-index:-1;
 }
-.trend{
-    height:320px;
-  width: 24.8%;
-  background-color: #00f000;
-  position: relative;
-  z-index:0;
-}
+
 .trend:nth-child(n + 1):nth-child(-n + 3) {
   margin-right: 3px;
   }
@@ -247,29 +247,27 @@ width: 100%;
 .trend-link{
     color:#ffff;
 }
-  .trenda{
-    background-image: url("../images/trend1.jpg");
+.trenda,.trendb,.trendc,.trend4{
+    display: flex;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 15px;
+    flex-direction:row;
+}
+  .trenda{
+    background-image: url("../images/trend1.jpg");
   }
   .trendb{
     background-image: url("../images/trend2.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
   }
   .trendc{
     background-image: url("../images/trend3.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
   }
   .trend4{
     background-image: url("../images/trend4.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
   }
   .trend-text{
     display: flex;
@@ -279,6 +277,7 @@ width: 100%;
   padding: 36px 32px;
   align-items: flex-end;
 }
+
 .trend-menu-list{
   list-style: none;
     padding:0;
