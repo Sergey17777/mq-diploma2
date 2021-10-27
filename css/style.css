@@ -484,7 +484,6 @@ margin-top:60px;
 }
 
 .mailing-field{
-    box-sizing: border-box;
     padding-left: 18px;
     padding-right: 18px;
     margin-top: 23px;
@@ -619,12 +618,23 @@ margin-top:60px;
 .list-goods-link{
     color:#b59f5b;
 }
+.shop-form{
+    display: block;
+}
+.price{
+    font-weight: bold;
+  }
+.price1{
+    text-decoration:line-through;
+    font-weight: bold;
+   
+}
 .rub{
      border-bottom: 1px solid;
-  line-height: 5px;
-  display: inline-block;
-  width: 0.4em;
-  font-weight: bold;
+     line-height: 5px;
+     display: flex;
+     width: 0.4em;
+     font-weight: bold;
 }
 .shop-button{
     height: 3.1em;
