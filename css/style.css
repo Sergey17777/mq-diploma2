@@ -270,11 +270,10 @@ width: 100%;
     background-size: cover;
   }
   .trend-text{
-   margin-top: 125px;
    width: 90%;
   border: 3px solid #b59f5b;
   padding: 36px 32px;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
 .trend-menu-list{
   list-style: none;
@@ -318,8 +317,7 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     max-width:778px;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
+    flex-wrap:wrap;
 }
 .news-block{
     display: flex;
