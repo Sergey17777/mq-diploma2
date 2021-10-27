@@ -270,8 +270,7 @@ width: 100%;
     background-size: cover;
   }
   .trend-text{
-    position: relative;
-      z-index:1;
+   margin-top: 125px;
    width: 90%;
   border: 3px solid #b59f5b;
   padding: 36px 32px;
