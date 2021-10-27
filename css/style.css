@@ -253,7 +253,7 @@ display: block;
     background-position: center center;
     background-size: cover;
     align-items: flex-end;
-    justify-content: center;
+    justify-content:space-between;
     padding-bottom: 15px;
     flex-direction:row;
 }
