@@ -112,6 +112,9 @@ display: block;
      background-repeat: no-repeat;
 
 }
+.popup-close:hover{
+    cursor: pointer;
+}
 /*шапка*/
 .header{
     display: flex;
