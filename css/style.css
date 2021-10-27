@@ -199,7 +199,7 @@ display: block;
 width: 100%;
   margin-top: 30px;
   display: flex;
- 
+  flex-wrap: wrap;
 }
 
 .trend::after {
@@ -271,7 +271,7 @@ width: 100%;
   }
   .trend-text{
     display: flex;
-    
+    flex-wrap:wrap;
    width: 90%;
   border: 3px solid #b59f5b;
   padding: 36px 32px;
@@ -319,7 +319,6 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     max-width:778px;
-    flex-wrap:wrap;
 }
 .news-block{
     display: flex;
@@ -350,6 +349,7 @@ width: 100%;
     padding:0;
     margin-bottom:15px;
     display:flex;
+    flex-wrap:wrap;
 }
 .news-menu-list-item{
     margin-right:20px;
