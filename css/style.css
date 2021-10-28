@@ -615,12 +615,7 @@ margin-top:60px;
     z-index: 1;
     position: relative;
 }
-.goods-info::after{
- border: 3px solid #ceb285;
-    width: 345px;
-    height: 265px;
-z-index: 1;
-}
+
 .goods-link{
     font-size:20px;
     text-decoration: none;
@@ -670,8 +665,7 @@ z-index: 1;
 
 /* подвал  */
 .articles-footer{
-    position: relative;
-    text-align: center;
+ text-align: center;
 }
 .footer-container{
     width:1200px;
