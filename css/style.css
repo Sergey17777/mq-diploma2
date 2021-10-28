@@ -602,10 +602,8 @@ margin-top:60px;
 .goods-img{
     object-fit: cover;
      display:flex;
-     justify-content: center;
      z-index: 0;
      position: absolute;
-
 }
 .goods-info{
     margin-top: 128px;
@@ -615,7 +613,10 @@ margin-top:60px;
     z-index: 1;
     position: relative;
 }
-
+.goods-name
+{
+    padding-top: 50px;
+}
 .goods-link{
     font-size:20px;
     text-decoration: none;
@@ -628,9 +629,7 @@ margin-top:60px;
     color:#b59f5b;
 }
 .shop-form{
- display:flex;
- flex-direction:row;
- justify-content: space-between;
+ display: block;
 }
 .price{
     display: flex;
@@ -644,11 +643,10 @@ margin-top:60px;
    
 }
 .rub{
-    flex-direction: column;
+    display:flex;
     flex-wrap: nowrap;
      border-bottom: 1px solid;
      line-height: 5px;
-     display: flex;
      width: 0.4em;
      font-weight: bold;
 }
