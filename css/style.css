@@ -630,6 +630,7 @@ margin-top:60px;
     line-height: 1.6;
 }
 .list-goods-link{
+
     color:#b59f5b;
 }
 .shop-form{
@@ -649,23 +650,19 @@ margin-top:60px;
     flex-wrap:nowrap;
    
 }
-.rub{
-    display:flex;
-    flex-direction:column;
-         border-bottom: 1px solid;
-     line-height: 5px;
-     width: 0.4em;
-     font-weight: bold;
-}
-.shop-button{
+     .rub:after {
+            content: " \20BD";
+        }
+
+.shop-button {
     height: 3.1em;
-    border: none;
-    width: 8.5em;
-    background-color:#b59f5b;
-    font-weight: bold;
-    text-transform: uppercase;
-    color:#ffffff;
-    font-size: 13px;
+   border: none;
+   width: 8.5em;
+   background-color: #b59f5b;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+ font-size: 13px;
 }
 
 /* подвал  */
