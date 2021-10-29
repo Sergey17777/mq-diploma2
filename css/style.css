@@ -595,6 +595,15 @@ margin-top:60px;
     margin: 0 auto;
     min-height: 480px;
 }
+
+.goods-block>* {
+            flex: 1;
+        }
+.goods-block>*+* {
+            margin-left: 60px;
+        }
+ 
+
 .goods {
    display: flex;
   flex-direction: column;
