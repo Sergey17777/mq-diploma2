@@ -672,7 +672,7 @@ margin-top:60px;
 
     color:#b59f5b;
 }
-
+/* прайс лист с кнопкой  магазин*/
 .price-list{
     display: flex;
     flex-direction: column;
