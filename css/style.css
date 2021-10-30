@@ -654,8 +654,14 @@ margin-top:60px;
     height: 265px;
     z-index: 2;
     margin-top: -55px;
+    transition: transform .2s;
  
 }
+.goods-info:hover{
+  text-align: center;
+  transform: scale(1.3);
+}
+
 .goods-name
 {
     padding-top: 50px;
