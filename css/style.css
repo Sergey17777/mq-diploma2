@@ -67,7 +67,8 @@ a{
    padding: 60px 20px 55px 25px; 
 }
 .p-feedback-form{
-
+    padding-top: 35px;
+    font-size: 13px;
 }
 .p-feedback-select{
     display: block;
@@ -86,6 +87,8 @@ a{
 display: block;
 
 }
+.p-feedback-opinion-span{
+}
 .p-feedback-field-opinion
 {   overflow: auto;
     resize: none;
@@ -96,7 +99,7 @@ display: block;
       margin-top: 18px;
     height: 48px;
     border: none;
-    width: 100%;
+    width: 330px;
     background-color:#b59f5b;
     font-weight: bold;
     text-transform: uppercase;
