@@ -672,14 +672,12 @@ margin-top:60px;
 
     color:#b59f5b;
 }
-.goods-shop-form{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
+
 .price-list{
     display: flex;
     flex-direction: column;
+     justify-content: space-between;
+    margin-top: 10px;
 }
 .price-list>*{
     flex: 1;
