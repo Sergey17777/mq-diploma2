@@ -673,6 +673,9 @@ margin-top:60px;
     color:#b59f5b;
 }
 /* прайс лист с кнопкой  магазин*/
+.price-list-container{
+    display: flex;
+}
 .price-list{
     display: flex;
     flex-direction: column;
@@ -695,6 +698,13 @@ justify-content: flex-start;
     font-weight: bold;
     text-decoration: line-through;
    
+}
+.shop{
+    display: flex;
+    align-content:flex-end;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    padding-left: 150px;
 }
 .shop-button {
    height: 3.1em;
