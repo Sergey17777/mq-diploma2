@@ -698,11 +698,6 @@ justify-content: flex-start;
     text-decoration: line-through;
    
 }
-     .rub:after {
-            content: " \20BD";
-            font-weight: bold;
-        }
-
 .shop-button {
    height: 3.1em;
    border: none;
