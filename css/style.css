@@ -83,6 +83,25 @@ a{
     background-repeat: no-repeat;
     background-position: right 5px  center;
 }
+.p-feedback-form-radio{
+
+}
+
+.p-feedback-radio-group-text::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../svg/form-empty-circle.svg");
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-size: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.radio:checked ~ .p-feedback-radio-group-text::before {
+    background-image: url("../svg/form-circle.svg");
+}
 .p-feedback-radio-label{
 display: block;
 
