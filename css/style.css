@@ -102,6 +102,9 @@ a{
 .radio:checked ~ .p-feedback-radio-group-text::before {
     background-image: url("../svg/form-circle.svg");
 }
+.radio{
+    display: none;
+}
 .p-feedback-radio-label{
 display: block;
 
