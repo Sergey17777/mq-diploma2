@@ -86,7 +86,12 @@ a{
 display: block;
 
 }
-
+.p-feedback-field-opinion
+{   overflow: auto;
+    resize: none;
+    width: 330px;
+    height: 130px;
+}
 .p-feedback-button{
       margin-top: 18px;
     height: 48px;
