@@ -85,7 +85,13 @@ a{
 .p-feedback-form-radio{
     padding-top: 30px;
 }
-
+.p-feedback-radio-label{
+    display: flex;
+   flex-direction: row;
+  
+}
+.p-feedback-radio-group-text{
+}
 .p-feedback-radio-group-text::before {
     content: "";
     display: inline-block;
@@ -104,9 +110,8 @@ a{
 .radio{
     display: none;
 }
-.p-feedback-radio-label{
-display: block;
-
+.p-feedback-form-opinion{
+    padding-top: 20px;
 }
 .p-feedback-field-opinion
 {   overflow: auto;
