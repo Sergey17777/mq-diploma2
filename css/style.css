@@ -655,6 +655,7 @@ margin-top:60px;
     z-index: 2;
     margin-top: -55px;
     transition: transform .2s;
+    padding: 0 20px;
  
 }
 .goods-info:hover{
@@ -681,12 +682,13 @@ margin-top:60px;
 /* прайс лист с кнопкой  магазин*/
 .price-list-container{
     display: flex;
+    padding-top: 10px;
+
 }
 .price-list{
     display: flex;
     flex-direction: column;
      justify-content: space-between;
-    margin-top: 10px;
 }
 .price-list>*{
     flex: 1;
@@ -696,13 +698,14 @@ margin-top:60px;
 .price{
     display: flex;
 justify-content: flex-start;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     flex-direction: row;
   }
 .price1{
     font-weight: bold;
     text-decoration: line-through;
+    font-size: 14px;
    
 }
 .shop{
@@ -710,8 +713,8 @@ justify-content: flex-start;
     align-content:flex-end;
     flex-wrap:wrap;
     justify-content: flex-end;
-    padding-left: 150px;
-}
+    padding-left: 115px;
+ }
 .shop-button {
    height: 3.1em;
    border: none;
