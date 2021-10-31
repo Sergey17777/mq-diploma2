@@ -800,7 +800,13 @@ justify-content: flex-start;
 
 }
 /* медиа запросы*/
+@media (min-width: 641px) and (max-width: 1200px) 
+{ ... }
 
+
+@media (max-width: 640px){
+
+}
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
  .popup-close {
