@@ -642,7 +642,7 @@ margin-top:60px;
         }
 
 .goods>* {
-            text-align: center;
+            text-align:start;
         }
   .goods:nth-child(n + 1):nth-child(-n + 3) {
   margin-right: 60px;
