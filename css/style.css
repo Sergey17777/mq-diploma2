@@ -36,6 +36,7 @@ a{
     left: 0;
     display: flex;
     z-index:8;
+    font-size: 0.813em;
 }
 .p-feedback-top{
      text-align: center;
@@ -66,12 +67,9 @@ a{
     background-color: #ffffff;
    padding: 60px 20px 55px 25px; 
 }
-.p-feedback-form{
-    padding-top: 35px;
-    font-size: 13px;
-}
 .p-feedback-select{
-    display: block;
+    display: flex;
+    flex-direction: row;
     font-family: inherit;
     width: 330px;
     height: 50px;
@@ -83,8 +81,9 @@ a{
     background-repeat: no-repeat;
     background-position: right 5px  center;
 }
-.p-feedback-form-radio{
 
+.p-feedback-form-radio{
+    padding-top: 30px;
 }
 
 .p-feedback-radio-group-text::before {
@@ -108,8 +107,6 @@ a{
 .p-feedback-radio-label{
 display: block;
 
-}
-.p-feedback-opinion-span{
 }
 .p-feedback-field-opinion
 {   overflow: auto;
