@@ -800,10 +800,11 @@ justify-content: flex-start;
 
 }
 /* медиа запросы*/
+/* NOEMI_mq_tablet.psd*/
 @media (min-width: 641px) and (max-width: 1200px) 
 { ... }
 
-
+/* NOEMI_mq_mobile.psd*/
 @media (max-width: 640px){
 
 }
