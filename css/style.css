@@ -82,6 +82,10 @@ a{
     background-repeat: no-repeat;
     background-position: right 5px  center;
 }
+  .p-feedback-select:focus,.p-feedback-field-opinion:focus {
+    background-color: transparent;
+    outline: none;
+}
 
 .p-feedback-form-radio{
     padding-top: 30px;
