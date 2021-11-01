@@ -661,7 +661,7 @@ margin-top:60px;
     z-index: 2;
     margin-top: -55px;
     transition: transform .2s;
-    padding: 0 20px;
+    padding: 0 15px;
          overflow: hidden;
      text-overflow: ellipsis;
  
@@ -684,9 +684,7 @@ margin-top:60px;
     font-weight: bold;
     line-height: 1.6;
 }
-.goods-description{
 
-}
 .list-goods-link{
 
     color:#b59f5b;
