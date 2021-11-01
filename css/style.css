@@ -67,6 +67,9 @@ a{
     background-color: #ffffff;
    padding: 60px 20px 55px 25px; 
 }
+.p-feedback-form{
+    padding-top: 30px;
+}
 .p-feedback-select,.p-feedback-field-opinion{
     border: none;
     background-color: #f4f7f6;
@@ -85,10 +88,6 @@ a{
     background-size: 3%  ;
     background-repeat: no-repeat;
     background-position: right 5px  center;
-}
-  .p-feedback-select:focus,.p-feedback-field-opinion:focus {
-    background-color: transparent;
-    outline: none;
 }
 .p-feedback-form-radio{
     padding-top: 30px;
