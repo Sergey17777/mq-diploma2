@@ -65,7 +65,8 @@ a{
     margin: auto;
     position: relative;
     background-color: #ffffff;
-   padding: 60px 20px 55px 25px; 
+   padding: 60px 20px 55px 25px;
+   line-height: 1.6; 
 }
 .p-feedback-form{
     padding-top: 30px;
