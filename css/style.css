@@ -595,9 +595,10 @@ margin-top:60px;
 
         
 .goods-container{
-    width: 768px;
+    width: 1200px;
     margin-left: auto;
-    margin-right: auto;     
+    margin-right: auto;
+    padding: 45px 15px 75px 15px;  
 }
 .goods-top{
     text-align: center;
@@ -621,22 +622,18 @@ margin-top:60px;
 }
 
 .goods-block{
-   width: 100%;
+    width: 100%;
     display: flex;
     flex-direction:row;
     padding-top: 60px;
     min-height: 480px;
     justify-content: center;
- align-content: center;
+    align-content: center;
 }
 
 .goods-block>* {
             flex: 1;
         }
-.goods-block>*+* {
-            margin-left: 55px;
-        }
- 
 
 .goods {
    display: flex;
