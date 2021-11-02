@@ -829,7 +829,7 @@ justify-content: flex-start;
     }
 
 .hamburger-menu{
-  position:absolute;
+  position:relative;
   display:flex;
   width: 1.24em;
   height: 0.8em;
@@ -872,6 +872,23 @@ justify-content: flex-start;
     .menu{
         display: none;
     }
+.hamburger-menu{
+  position:relative;
+  display:flex;
+  width: 1.24em;
+  height: 0.8em;
+  border-top: 0.2em solid #f7efef;
+
+}
+   
+.hamburger-menu:before{
+     content: "";
+  position: absolute;
+  top: 0.3em;
+  left: 0px;
+  width: 100%;
+  border-top: 0.2em solid #f7efef;
+}
 .hamburger-menu:after{
      content: "";
   position: absolute;
@@ -880,7 +897,12 @@ justify-content: flex-start;
   width: 100%;
   border-top: 0.2em solid #f7efef;
 }
-
+.header{
+    width: 100%;
+}
+.header{
+    width: 100%;
+}
 }
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
