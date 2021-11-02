@@ -128,7 +128,7 @@ a{
 .p-feedback-field-opinion
 {   overflow: auto;
     resize: none;
-    width: 100%;
+    width: 100vw;
     height: 130px;
 }
 .p-feedback-button{
@@ -182,7 +182,7 @@ a{
 .header-container{
     position:relative;
     z-index: 2;
-    max-width:1200px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 33px;
@@ -221,6 +221,10 @@ a{
 .menu-link:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+/* гамбургер меню */
+.hamburger-menu{
+    display:none;
 }
 .header-description h1{
     text-transform:uppercase;
@@ -820,11 +824,22 @@ justify-content: flex-start;
 /* медиа запросы*/
 /* NOEMI_mq_tablet.psd*/
 @media (min-width: 641px) and (max-width: 1200px) 
-{ ... }
+{     .menu{
+        display: none;
+    }
 
+.hamburger-menu{
+    display: flex;
+}
+     }
 /* NOEMI_mq_mobile.psd*/
 @media (max-width: 640px){
+    .menu{
+        display: none;
+    }
 
+.hamburger-menu{
+    display: flex;
 }
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
