@@ -671,8 +671,8 @@ margin-top:60px;
     z-index: 2;
     margin-top: -55px;
     transition: transform .2s;
+   padding: 0 15px;
    padding-bottom: 15px;
-}
 
 /*
 .goods-info:hover{
