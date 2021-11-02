@@ -667,13 +667,11 @@ margin-top:60px;
 .goods-info{
     border: 3px solid #ceb285;
     width: 345px;
-    height: 265px;
+    height: 100%;
     z-index: 2;
     margin-top: -55px;
     transition: transform .2s;
-    padding: 0 15px;
-    overflow: hidden;
-     text-overflow: ellipsis; 
+    padding: 0 15px; 
 }
 
 /*
