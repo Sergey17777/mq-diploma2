@@ -269,10 +269,10 @@ a{
   opacity: 0.6;
   z-index:-1;
 }
-
 .trend:nth-child(n + 1):nth-child(-n + 3) {
   margin-right: 3px;
   }
+
 .trends-top{
     text-align: center;
     text-transform: uppercase;
@@ -854,19 +854,17 @@ justify-content: flex-start;
     font-size: 2.5em;
 }
 /* сейчас в тренде*/
-.trend{
-  max-height:385px;
-  width: 50%;
-  background-color: #00f000;
-  position: relative;
-  z-index:0;
-}
 
+.trenda,.trendb,.trendc,.trend4{
+width: 50%;
+}
 .trend-menu-link{
   
     font-size: 1.063em;
     
 }
+
+
 /* */
      }
 /* NOEMI_mq_mobile.psd*/
@@ -898,9 +896,6 @@ justify-content: flex-start;
   left: 0px;
   width: 100%;
   border-top: 0.2em solid #f7efef;
-}
-.header{
-    width: 100%;
 }
 .header{
     width: 100%;
