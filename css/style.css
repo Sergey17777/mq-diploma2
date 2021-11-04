@@ -817,7 +817,7 @@ justify-content: flex-start;
     }
 /* гамбургер */
 .hamburger-menu{
-  position:relative;
+  position:absolute;
   display:flex;
   width: 1.24em;
   height: 0.8em;
@@ -827,7 +827,7 @@ justify-content: flex-start;
    
 .hamburger-menu:before{
      content: "";
-  position: absolute;
+  position:absolute;
   top: 0.3em;
   left: 0px;
   width: 100%;
@@ -843,7 +843,9 @@ justify-content: flex-start;
 }
 /* шапка*/
 .header{
-    width: 100%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .header-description h1{
