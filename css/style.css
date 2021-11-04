@@ -890,7 +890,7 @@ justify-content: start;
         display: none;
     }
 .hamburger-menu{
-  position:relative;
+  position:absolute;
   display:flex;
   width: 1.24em;
   height: 0.8em;
@@ -914,10 +914,7 @@ justify-content: start;
   width: 100%;
   border-top: 0.2em solid #f7efef;
 }
-.header{
-    width: 100%;
-}
-}
+
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
  .popup-close {
