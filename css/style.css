@@ -822,7 +822,8 @@ justify-content: flex-start;
   width: 1.24em;
   height: 0.8em;
   border-top: 0.2em solid #f7efef;
-
+  top: 50px;
+  right: 60px;
 }
    
 .hamburger-menu:before{
@@ -895,7 +896,6 @@ justify-content: start;
   width: 1.24em;
   height: 0.8em;
   border-top: 0.2em solid #f7efef;
-
 }
    
 .hamburger-menu:before{
