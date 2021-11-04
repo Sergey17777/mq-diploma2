@@ -180,7 +180,7 @@ a{
     opacity: 0.5;
 }
 .header-container{
-   position:relative;
+    position:relative;
     z-index: 2;
     width:1200px;
     margin-left: auto;
@@ -189,7 +189,6 @@ a{
     padding-bottom: 145px;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 .logo-menu{
     display: flex;
@@ -217,22 +216,18 @@ a{
     text-transform:uppercase;
     text-decoration: none;
     color: #ffffff;
-    font-size: 0.813em;
+    font-size: 13px;
 }
 .menu-link:hover{
     cursor: pointer;
     text-decoration: underline;
-}
-/* гамбургер меню */
-.hamburger-menu{
-    display:none;
 }
 .header-description h1{
     text-transform:uppercase;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-    font-size:2.813em;
+    font-size:45px;
     line-height:1.6;
     max-width:700px;
     margin-top:95px;
