@@ -249,6 +249,7 @@ a{
   width: 100%;
   margin-top: 30px;
   display: flex;
+  flex-wrap: wrap;
 }
 .trend{
   height:320px;
@@ -605,7 +606,7 @@ margin-top:60px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 45px 15px 75px 15px;  
+    padding: 45px 15px 75px 15px; 
 }
 .goods-top{
     text-align: center;
@@ -634,6 +635,7 @@ margin-top:60px;
     padding-top: 60px;
     justify-content: center;
     align-content: center;
+    flex-wrap: warp;
 }
 .goods-block>* {
             flex: 1;
@@ -855,6 +857,10 @@ margin:0 auto;
     font-size: 2.5em;
 }
 /* сейчас в тренде*/
+
+.trenda, .trendb, .trendc, .trend4 {
+    flex: 1;
+}
 
 .trend{
     height:245px;
