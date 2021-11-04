@@ -864,7 +864,7 @@ margin:0 auto;
 }
 
 .trends{
-    --gap:30px;
+    --gap:3px;
 }
 .trenda,.trendb,.trendc,.trend4{
      flex-basis: calc(50% - 3px);
