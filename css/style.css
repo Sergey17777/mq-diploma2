@@ -165,7 +165,7 @@ a{
     z-index: 1;
     position:relative;
     background-image: url("../images/banner-bg.jpg");
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
@@ -182,7 +182,7 @@ a{
 .header-container{
     position:relative;
     z-index: 2;
-    max-width:1200px;
+    width:1200px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 33px;
@@ -194,7 +194,10 @@ a{
     display: flex;
     justify-content: space-between;
 }
-
+/*гамбургер*/
+.hamburger-menu{
+    display: none;
+}
 .menu {
     display:flex;
 }
@@ -817,7 +820,8 @@ justify-content: flex-start;
     }
 /* гамбургер */
 .hamburger-menu{
-  position:absolute;
+  position:relative;
+  z-index: 3;
   display:flex;
   width: 1.24em;
   height: 0.8em;
@@ -892,30 +896,6 @@ flex-wrap: wrap;
     .menu{
         display: none;
     }
-.hamburger-menu{
-  position:absolute;
-  display:flex;
-  width: 1.24em;
-  height: 0.8em;
-  border-top: 0.2em solid #f7efef;
-}
-   
-.hamburger-menu:before{
-     content: "";
-  position: absolute;
-  top: 0.3em;
-  left: 0px;
-  width: 100%;
-  border-top: 0.2em solid #f7efef;
-}
-.hamburger-menu:after{
-     content: "";
-  position: absolute;
-  bottom: 1.2em;
-  left: 0px;
-  width: 100%;
-  border-top: 0.2em solid #f7efef;
-}
 
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
