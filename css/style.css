@@ -844,9 +844,7 @@ justify-content: flex-start;
 }
 /* шапка*/
 .header{
-        display: flex;
-    justify-content: center;
-    align-items: center;
+margin:0 auto;
 
 }
 .header-description h1{
@@ -854,9 +852,12 @@ justify-content: flex-start;
 }
 /* сейчас в тренде*/
 
-.trenda,.trendb,.trendc,.trend4{
-width: 50%;
+.trend{
+    height:245px;
 }
+.trend:nth-child(n + 1):nth-child(-n + 1) {
+  margin-right: 3px;
+  }
 .trend-menu-link{
   
     font-size: 1.063em;
@@ -869,8 +870,9 @@ width: 50%;
 }
 .main-container{
     display: flex;
-flex-direction: column;
 justify-content: start;
+display: flex;
+flex-wrap: wrap;
 
     }
     .news-img-block{
