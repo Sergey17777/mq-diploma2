@@ -644,6 +644,7 @@ margin-top:60px;
 .goods {
    display: flex;
   flex-direction: column;
+  flex-wrap: warp;
         }
 
 .goods>* {
@@ -862,8 +863,13 @@ margin:0 auto;
     flex: 1;
 }
 
-.trend{
-    height:245px;
+.trends{
+    --gap:30px;
+}
+.trenda,.trendb,.trendc,.trend4{
+     flex-basis: calc(50% - 5px);
+            margin-top: var(--gap);
+            height: 245px;
 }
 .trend:nth-child(n + 1):nth-child(-n + 1) {
   margin-right: 3px;
