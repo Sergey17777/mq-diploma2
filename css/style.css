@@ -887,25 +887,13 @@ margin:0 auto;
 }
 /* майн*/
 
-.container{
-    max-width: 695px;
-}
-.main-container{
-    display: flex;
-justify-content: start;
-display: flex;
-flex-wrap: wrap;
 
-    }
-    .news-img-block{
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        width: 100%;
-    }
-.news-img{
-  width: 100%;
+.news {
+flex-direction: column;
+width: min-content;
 }
+
+
 /* */
      }
 /* NOEMI_mq_mobile.psd*/
