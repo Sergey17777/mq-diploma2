@@ -862,7 +862,12 @@ margin:0 auto;
 .trenda, .trendb, .trendc, .trend4 {
     flex: 1;
 }
-
+.trends{
+  width: 100%;
+  margin-top: 23px;
+  display: flex;
+  flex-wrap: wrap;
+}
 .trends{
     --gap:3px;
     justify-content: space-between;
@@ -913,6 +918,54 @@ width: 330px;
     .menu{
         display: none;
     }
+    /* шапка*/
+.header{
+margin:0 auto;
+
+}
+.logo-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-description h1{
+    font-size: 1.625em;
+}
+/* сейчас в тренде*/
+.trends-container{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+}
+
+.trenda, .trendb, .trendc, .trend4 {
+    flex: 1;
+}
+
+.trends{
+    --gap:2px;
+    justify-content: space-between;
+}
+.trenda,.trendb,.trendc, .trend4{
+     flex-basis: calc(100% - 23px);
+     margin-top: var(--gap);
+    height: 230px;
+}
+.trend-text{
+    display: flex;
+    flex-wrap:wrap;
+   width: 90%;
+  border: 3px solid #b59f5b;
+  padding: 20px 30px;
+  align-items: flex-end;
+}
+.trend-menu-link{
+  
+    font-size: 16px;
+    
+}
 /* контент*/
 .container{
     flex-direction: column;
