@@ -911,6 +911,10 @@ width: min-content;
 .goods-info{
 width: 330px;
 }
+.footer-container{
+   max-width:697px;
+    margin: auto;
+}
 
    }
 /* NOEMI_mq_mobile.psd*/
@@ -1012,6 +1016,10 @@ margin:0 auto;
 .news {
 flex-direction: column;
 width: min-content;
+}
+.footer-container{
+   max-width:330px;
+    margin: auto;
 }
 }
 /* медиа запросы для крестика*/
