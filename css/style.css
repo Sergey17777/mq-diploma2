@@ -868,7 +868,7 @@ margin:0 auto;
     justify-content: space-between;
 }
 .trenda,.trendb,.trendc, .trend4{
-     flex-basis: calc(50% - 3px);
+     flex-basis: calc(50% - 60px);
      margin-top: var(--gap);
     height: 245px;
 }
@@ -886,22 +886,43 @@ margin:0 auto;
     
 }
 /* майн*/
-
-
 .news {
 flex-direction: column;
 width: min-content;
 }
 
+/*наши изделия */
+.goods-container{
+    padding-right: 0;
+    padding-left: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goods{
+ flex-basis: calc(697px - 30px);
+ padding-top: 33px;
 
-/* */
-     }
+}
+.goods-info{
+width: 330px;
+}
+
+   }
 /* NOEMI_mq_mobile.psd*/
 @media (max-width: 640px){
     .menu{
         display: none;
     }
+/* контент*/
+.container{
+    flex-direction: column;
+}
 
+.news {
+flex-direction: column;
+width: min-content;
+}
+}
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
  .popup-close {
