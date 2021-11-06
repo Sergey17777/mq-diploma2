@@ -857,6 +857,7 @@ margin:0 auto;
 }
 .header-description h1{
     font-size: 2.5em;
+     max-width:100%;
 }
 /* сейчас в тренде*/
 
@@ -971,6 +972,7 @@ margin: auto;
     font-weight: bold;
     line-height:1.6;
     font-size: 1.625em;
+    max-width:100%;
 }
 /* сейчас в тренде*/
 .trends-container{
