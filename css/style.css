@@ -191,6 +191,7 @@ a{
 .logo-menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 /*гамбургер*/
 .hamburger-menu{
@@ -212,6 +213,7 @@ a{
     margin-right:0;
 }
 .menu-link {
+
     align-items: flex-end;
     justify-content:flex-end;
     list-style-type: none;
