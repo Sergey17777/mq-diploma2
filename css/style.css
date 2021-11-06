@@ -187,8 +187,6 @@ a{
     margin-right: auto;
     padding-top: 33px;
     padding-bottom: 145px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .logo-menu{
     display: flex;
@@ -214,6 +212,7 @@ a{
     margin-right:0;
 }
 .menu-link {
+    align-items: flex-end;
     justify-content:flex-end;
     list-style-type: none;
     text-transform:uppercase;
@@ -815,9 +814,9 @@ justify-content: flex-start;
   text-align: center;
 
 }
-/* медиtа запросы*/
+/* медиа запросы*/
 /* NOEMI_mq_tablet.psd*/
-@media (min-widh: 641px) and (max-width: 1200px) 
+@media(max-width:768px) 
 {     .menu{
         display: none;
     }
@@ -918,7 +917,7 @@ width: 330px;
 
    }
 /* NOEMI_mq_mobile.psd*/
-@media (max-width: 640px){
+@media (max-width: 360px){
     .menu{
         display: none;
     }
@@ -969,7 +968,6 @@ margin: auto;
     text-align: center;
     font-weight: bold;
     line-height:1.6;
-    max-width:50.33%;
     font-size: 1.625em;
 }
 /* сейчас в тренде*/
