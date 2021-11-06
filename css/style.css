@@ -823,7 +823,7 @@ justify-content: flex-start;
     }
 /* гамбургер */
 .hamburger-menu{
-  position:relative;
+  position:absolute;
   z-index: 3;
   display:flex;
   width: 1.24em;
@@ -963,7 +963,7 @@ margin: auto;
     padding-top: 235px;
 }
 .header-description h1{
-    margin:0;
+    margin:0 auto;
     text-transform:uppercase;
     color: #ffffff;
     text-align: center;
