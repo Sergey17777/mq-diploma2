@@ -815,9 +815,9 @@ justify-content: flex-start;
   text-align: center;
 
 }
-/* медиа запросы*/
+/* медиtа запросы*/
 /* NOEMI_mq_tablet.psd*/
-@media (min-width: 641px) and (max-width: 1200px) 
+@media (min-widh: 641px) and (max-width: 1200px) 
 {     .menu{
         display: none;
     }
@@ -904,7 +904,7 @@ width: min-content;
     justify-content: space-between;
 }
 .goods{
- flex-basis: calc(697px - 30px);
+ flex-basis: calc(697px/2);
  padding-top: 33px;
 
 }
@@ -969,7 +969,6 @@ margin:0 auto;
     font-weight: bold;
     line-height:1.6;
     max-width:58.33%;
-    margin-top:40px;
     margin-right: auto;
     margin-left:auto;
     font-size: 1.625em;
@@ -1021,6 +1020,9 @@ width: min-content;
    max-width:330px;
     margin: auto;
 }
+}
+/* медиа для горизонтальной ориентации экрана*/
+@media (orientation: landscape) {
 }
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
