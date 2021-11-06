@@ -855,6 +855,9 @@ justify-content: flex-start;
 margin:0 auto;
 
 }
+.logo-menu{
+padding-left: 40px;
+    }
 .header-description h1{
     font-size: 2.5em;
     max-width: 100%;
