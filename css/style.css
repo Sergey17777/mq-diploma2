@@ -966,6 +966,7 @@ margin: auto;
     align-items: center;
     justify-content:center;
     padding-top: 235px;
+    padding-left: 0;
 }
 .header-description h1{
     margin:0 auto;
