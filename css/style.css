@@ -308,7 +308,6 @@ margin-top: 3px;
     align-items: flex-end;
     justify-content:center;
     padding-bottom: 15px;
-    width:calc(50% - 3px);
 }
   .trenda{
     background-image: url("../images/trend1.jpg");
@@ -821,6 +820,13 @@ justify-content: flex-start;
 
 }
 /* медиа запросы*/
+@media(max-width:1200px){
+.trenda,.trendb,.trendc, .trend4{
+     flex-basis: calc(50% - 3px);
+     margin-top: var(--gap);
+    height: 245px;
+}
+}
 /* NOEMI_mq_tablet.psd*/
 @media(max-width:768px) 
 {     .menu{
