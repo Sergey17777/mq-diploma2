@@ -325,7 +325,6 @@ margin-top: 3px;
     display: flex;
     flex-wrap:wrap;
    width: 90%;
-   height: 165px;
   border: 3px solid #b59f5b;
   padding: 36px 32px;
   align-items: flex-end;
@@ -659,7 +658,7 @@ margin-top:60px;
  
   .goods-img-block{
     display: flex;
-    padding-left:10%;
+    padding-left: 10%;
   }
 .goods-img{
     display: flex;
@@ -902,7 +901,7 @@ padding-left: 40px;
 }
 .trend-menu-link{
   
-    font-size: 17px;
+    font-size: 17vmax;
     
 }
 /* майн*/
@@ -934,7 +933,56 @@ width: 330px;
 }
 
    }
-/* NOEMI_mq_mobile.psd*/
+   @media (max-width: 768px){
+/* сейчас в тренде*/
+.trends-container{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+}
+
+.trenda, .trendb, .trendc, .trend4 {
+    flex: 1;
+}
+
+.trends{
+    --gap:2px;
+    justify-content: space-between;
+}
+.trenda,.trendb,.trendc, .trend4{
+     flex-basis: calc(100% - 23px);
+     margin-top: var(--gap);
+    height: 230px;
+}
+.trend-text{
+    display: flex;
+    flex-wrap:wrap;
+   width: 90%;
+  border: 3px solid #b59f5b;
+  padding: 20px 30px;
+  align-items: flex-end;
+}
+.trend-menu-link{
+  
+    font-size: 16px;
+    
+}
+/* контент*/
+.container{
+    flex-direction: column;
+}
+
+.news {
+flex-direction: column;
+width: min-content;
+}
+.footer-container{
+   max-width:768px;
+    margin: auto;
+}
+   }
+
 @media (max-width: 360px){
     .menu{
         display: none;
@@ -990,56 +1038,13 @@ margin: auto;
     font-size: 26px;
     max-width:100%;
 }
-/* сейчас в тренде*/
-.trends-container{
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 44px;
-}
-
-.trenda, .trendb, .trendc, .trend4 {
-    flex: 1;
-}
-
-.trends{
-    --gap:2px;
-    justify-content: space-between;
-}
-.trenda,.trendb,.trendc, .trend4{
-     flex-basis: calc(100% - 23px);
-     margin-top: var(--gap);
-    height: 230px;
-}
-.trend-text{
-    display: flex;
-    flex-wrap:wrap;
-   width: 90%;
-  border: 3px solid #b59f5b;
-  padding: 20px 30px;
-  align-items: flex-end;
-}
-.trend-menu-link{
-  
-    font-size: 16px;
-    
-}
-/* контент*/
-.container{
-    flex-direction: column;
-}
-
-.news {
-flex-direction: column;
-width: min-content;
-}
 .footer-container{
    max-width:330px;
     margin: auto;
 }
 }
 /* медиа для горизонтальной ориентации экрана*/
-@media (orientation: landscape) {
+@media screen and(orientation: landscape) and (max-device-width: 360px) {
 }
 /* медиа запросы для крестика*/
 @media(min-width: 481px) {
