@@ -833,14 +833,6 @@ justify-content: flex-start;
     flex-direction: column;
 }
 
-.news {
-flex-direction: column;
-width: min-content;
-}
-.footer-container{
-   max-width:768px;
-    margin: auto;
-}
 }
 /* NOEMI_mq_tablet.psd*/
 @media(max-width:768px) 
@@ -923,6 +915,14 @@ padding-left: 40px;
     
 }
 
+.news {
+flex-direction: column;
+width: min-content;
+}
+.footer-container{
+   max-width:768px;
+    margin: auto;
+}
    }
 
 @media (max-width: 360px){
