@@ -487,6 +487,9 @@ margin-top: 3px;
 .aside-news-name a{
     color:#0f0d0e;
 }
+.aside-news-link{
+
+}
 /* форма поиска */
 .search{
     display:flex;
@@ -826,13 +829,20 @@ justify-content: flex-start;
     height: 245px;
 }
 }
-@media(max-width:858px) 
+@media(max-width:991px) 
 { 
-    /* контент*/
-.container{
-    flex-direction: column;
-}
 
+    /* контент*/
+
+
+
+.news {
+flex-direction: column;
+width: min-content;
+}
+.aside-news-name{
+    font-size: 0.875em;
+}
 }
 /* NOEMI_mq_tablet.psd*/
 @media(max-width:768px) 
@@ -914,11 +924,9 @@ padding-left: 40px;
     font-size: 16px;
     
 }
-
-.news {
-flex-direction: column;
-width: min-content;
-}
+.container{
+    flex-direction: column;
+} 
 .footer-container{
    max-width:768px;
     margin: auto;
