@@ -833,6 +833,17 @@ justify-content: flex-start;
 { 
 
     /* контент*/
+/* контент*/
+
+.container {
+    max-width:calc(395px + 297px + 33px);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:space-between;
+    padding: 45px 15px 75px 15px;
+}
 
 
 
