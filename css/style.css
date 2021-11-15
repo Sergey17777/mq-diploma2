@@ -644,7 +644,7 @@ margin-top:60px;
     flex-direction:row;
     padding-top: 60px;
     flex-wrap: wrap;
-    justify-content:flex;
+    justify-content:space-between;
 }
 .goods-block>* {
           
