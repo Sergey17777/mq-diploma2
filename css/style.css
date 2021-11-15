@@ -586,6 +586,7 @@ margin-top:60px;
 }
 .list-theme{
     list-style:none;
+   margin-top: 18px;
 }
 .list-theme-link{
     align-items: center;
