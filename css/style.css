@@ -644,7 +644,7 @@ margin-top:60px;
     flex-direction:row;
     padding-top: 60px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content:flex;
 }
 .goods-block>* {
             flex: 1;
@@ -661,7 +661,8 @@ margin-top:60px;
  
   .goods-img-block{
     display: flex;
-    padding-left: 10%;
+    justify-content: flex-start;
+
   }
 .goods-img{
     display: flex;
