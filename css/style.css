@@ -159,6 +159,12 @@ a{
 .popup-close:hover{
     cursor: pointer;
 }
+._hidden{
+    display: none;
+}
+.hidden-pop{
+    display: none;
+}
 /*шапка*/
 .header{
     display: flex;
@@ -653,6 +659,7 @@ margin-top:60px;
 .goods {
    display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
         }
 
 .goods>* {
@@ -808,10 +815,7 @@ justify-content: flex-start;
     background-image: url("../svg/005-instagram.svg");
 }
 .visually-hidden {
-    width: 1px;
-    height: 1px;
-    clip: rect(1px, 1px, 1px, 1px);
-    position: absolute;
+  display: none;
 }
 
 .copyright{
